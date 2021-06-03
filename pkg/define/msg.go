@@ -69,6 +69,12 @@ var MsgFlags = map[int]string{
 	ErrorInsertLog:  "插入警告失败",
 	ErrorGetLogs:    "获取警告失败",
 	ErrorDeleteLogs: "删除警告失败",
+
+	ErrorLogin:    "登录失败",
+	ErrorRegister: "注册失败",
+
+	ErrorBooking:    "获取医生信息失败",
+	ErrorGetBooking: "获取预定信息失败",
 }
 
 // GetMsg get error information based on Code

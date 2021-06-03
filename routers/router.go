@@ -65,6 +65,16 @@ func InitRouter() *gin.Engine {
 	apiV2 := r.Group("/api/v2")
 	//apiV2.Use(jwt.JWT())
 	{
+		// 用户相关接口
+		apiV2.GET("/user/login", v2.Login)
+		apiV2.GET("/user/register", v2.Register)
+		apiV2.GET("/user/info", v2.GetUser)
+
+		// 获取医生信息
+		apiV2.GET("/doctor/search", v2.SearchDoctor)
+		// 获取挂号单信息
+		apiV2.GET("/doctor/booking", v2.Booking)
+
 		// 任务相关接口
 		apiV2.GET("/tasks/:replica_id", v2.GetTaskByReplicaId)
 		apiV2.POST("/tasks/between", v2.GetTaskInfo)

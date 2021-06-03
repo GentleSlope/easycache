@@ -75,4 +75,10 @@ const (
 	ErrorInsertLog  = 150001
 	ErrorGetLogs    = 150002
 	ErrorDeleteLogs = 150003
+
+	ErrorLogin    = 160001
+	ErrorRegister = 160002
+
+	ErrorBooking    = 170001
+	ErrorGetBooking = 170002
 )

@@ -32,6 +32,7 @@ require (
 	github.com/tealeg/xlsx v1.0.4-0.20180419195153-f36fa3be8893
 	github.com/thedevsaddam/gojsonq/v2 v2.5.2
 	github.com/unknwon/com v1.0.1
+	golang.org/x/crypto v0.0.0-20190605123033-f99c8df09eb5 // indirect
 	golang.org/x/image v0.0.0-20180628062038-cc896f830ced // indirect
 	golang.org/x/net v0.0.0-20190611141213-3f473d35a33a
 	golang.org/x/sys v0.0.0-20190921204832-2dccfee4fd3e // indirect
